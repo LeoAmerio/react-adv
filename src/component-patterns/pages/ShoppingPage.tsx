@@ -6,7 +6,7 @@ import {
 const product = {
   id: "1",
   title: "Coffe Mug",
-  img: "../../public/coffee-mug.png",
+  img: "./coffee-mug.png",
 };
 
 export const ShoppingPage = () => {
