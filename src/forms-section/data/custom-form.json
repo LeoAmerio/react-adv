@@ -4,13 +4,63 @@
     "name": "name",
     "label": "Name",
     "placeholder": "Enter your name",
-    "value": ""
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "Name is required"
+      }, 
+      {
+        "type": "minLength",
+        "value": 5,
+        "message": "Name must be at least 3 characters long"
+      }
+    ]
   },
   {
     "type": "email",
     "name": "email",
     "label": "Email",
     "placeholder": "johndoe@gmail.com",
-    "value": ""
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "Name is required"
+      },
+      {
+        "type": "email",
+        "message": "Email is invalid"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "options": [
+      {
+        "id": "1",
+        "value": "mario",
+        "label": "Mario"
+      },
+      {
+        "id": "2",
+        "value": "zelda",
+        "label": "Zelda"
+      },
+      {
+        "id": "3",
+        "value": "metroid",
+        "label": "Metroid"
+      }
+    ],
+    "validations": [
+      {
+        "type": "required",
+        "message": "Name is required"
+      }
+    ]
   }
 ]
