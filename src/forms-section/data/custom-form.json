@@ -1,0 +1,16 @@
+[
+  {
+    "type": "input",
+    "name": "name",
+    "label": "Name",
+    "placeholder": "Enter your name",
+    "value": ""
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "label": "Email",
+    "placeholder": "johndoe@gmail.com",
+    "value": ""
+  }
+]
